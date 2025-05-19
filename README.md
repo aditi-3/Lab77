@@ -8,7 +8,10 @@
     No. End to end testing is more about testing user actions. Its purpose is not to test individual functions but to test how users interact with the web page as whole.
 
 # Expose
-
-
+## 1. What is the difference between navigation and snapshot mode?
+    Navigation mode analyzes the page right after it is loaded but snapshot analyzes the page at the current state.
+    Navigation can provide the overall performance metric, but it can't update the analysis after making changes whilead snapshot can find accessibility issues.
+## 2. Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+    The accessibility can be improved since it is at 90% right now, for example, <html> element does not have a [lang] attribute. SEO (Document does not have a meta description) and best practices (No `<meta name="viewport">` tag found) can also be optimized. Property size image is big and can save up to 718 KB when optimized. 
 
 
